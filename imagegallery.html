@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="description" content="An image gallery of Van Halen">
+  	<meta name="keywords" content="Van Halen, Eddie Van Halen, Alex Van Halen, David Lee Roth, Sammy Hagar">
+  	<meta name="author" content="Michael Roberts">
+
+	<!-- shiv/shim - Helps Internet Explorer older than v. 9 work correctly with html5 -->
+	<!--[if lt IE 9]> <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+
+	<!-- Viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- stylesheet links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unica+One&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/styles-imagegallery.css">
+
+	<!-- favicon link -->
+	<link rel="icon" href="images/favicon.ico">
+
+	<!-- title tag -->
+	<title>Van Halen Image Gallery</title>
+</head>
+<body> 
+    <header>
+        <a href="index.html"><img src="images/logo-image.png" alt="Get Your Head In The Clouds and Beyond" title="Get Your Head In The Clouds and Beyond"></a>
+        <i onclick="displayMenu()" id="hamburger-icon" class="fa-solid fa-bars"></i>
+        <i onclick="hideMenu()" id="x-icon" class="fa-solid fa-x"></i>
+        <nav id="navigation">
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="imagegallery.html">Image Gallery</a></li>
+                <li><a href="videogallery.html">Video Gallery</a></li>
+                <li><a href="slideshow.html">Slideshow</a></li>
+            </ul>
+        </nav>
+    </header>
+	<main>
+		<div class="row"> 
+			<div class="column">
+				<img src="images/imagegallery/1.jpg">
+				<img src="images/imagegallery/2.jpg">
+				<img src="images/imagegallery/3.jpg">
+				<img src="images/imagegallery/4.jpg">
+				<img src="images/imagegallery/5.jpg">
+				<img src="images/imagegallery/6.jpg">
+				<img src="images/imagegallery/7.jpg">
+				<img src="images/imagegallery/8.jpg">
+				<img src="images/imagegallery/9.jpg">
+				<img src="images/imagegallery/10.jpg">
+				<img src="images/imagegallery/11.jpg">
+				<img src="images/imagegallery/12.jpg">
+				<img src="images/imagegallery/46.jpg">
+				<img src="images/imagegallery/24.jpg">
+			</div>
+			
+			<div class="column">
+				<img src="images/imagegallery/13.jpg">
+				<img src="images/imagegallery/14.jpg">
+				<img src="images/imagegallery/15.jpg">
+				<img src="images/imagegallery/16.jpg">
+				<img src="images/imagegallery/17.jpg">
+				<img src="images/imagegallery/18.jpg">
+				<img src="images/imagegallery/19.jpg">
+				<img src="images/imagegallery/20.jpg">
+				<img src="images/imagegallery/21.jpg">
+				<img src="images/imagegallery/22.jpg">
+				<img src="images/imagegallery/23.jpg">
+			</div> 
+			
+			<div class="column">
+				<img src="images/imagegallery/25.jpg">
+				<img src="images/imagegallery/26.jpg">
+				<img src="images/imagegallery/27.jpg">
+				<img src="images/imagegallery/28.jpg">
+				<img src="images/imagegallery/29.jpg">
+				<img src="images/imagegallery/30.jpg">
+				<img src="images/imagegallery/31.jpg">
+				<img src="images/imagegallery/32.jpg">
+				<img src="images/imagegallery/33.jpg">
+				<img src="images/imagegallery/34.jpg">
+				<img src="images/imagegallery/35.jpg">
+				<img src="images/imagegallery/36.jpg">
+				<img src="images/imagegallery/48.jpg">
+			</div>
+			
+			<div class="column">
+				<img src="images/imagegallery/37.jpg">
+				<img src="images/imagegallery/38.jpg">
+				<img src="images/imagegallery/39.jpg">
+				<img src="images/imagegallery/40.jpg">
+				<img src="images/imagegallery/41.jpg">
+				<img src="images/imagegallery/42.jpg">
+				<img src="images/imagegallery/43.jpg">
+				<img src="images/imagegallery/44.jpg">
+				<img src="images/imagegallery/45.jpg">
+				<img src="images/imagegallery/47.jpg">
+			</div>
+		</div>
+	</main>
+
+	<footer>
+		<p>&copy; <span id="copyright"></span> Michael Roberts Productions</p>
+	</footer>
+	<div>
+		<button onclick="topFunction()" id="cornerBtn" title="Go to top">
+			<i class="fa-solid fa-angle-up"></i>
+		 </button>
+	 </div>
+	<script src="js/scripts.js"></script>
+	<script src="js/scripts-videogallery.js"></script>
+
+</body>
+</html>
